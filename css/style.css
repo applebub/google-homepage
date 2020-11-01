@@ -1,0 +1,70 @@
+body{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+main{
+    align-self: center;
+    color: pink;
+    height: 80%;
+    width: 45%;
+    text-align: center;
+}
+
+nav{
+    color: blue;
+    padding: 2%;
+    border: solid red;
+}
+
+footer{
+
+}
+
+h1{
+    position: relative;
+    top: 3%;
+    font-size: 500%;
+    font-family: 'Noto Sans';
+}
+
+.letter{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#g1{
+    color: #4169e1;
+    
+}
+#o1{
+    color: #dc143c;
+    right: 0.6%;
+}
+#o2{
+    color: #daa520;
+    right: 1.2%;
+}
+#g2{
+    color: #4169e1;
+    right: 1.8%;
+}
+#l{
+    color: #228b22;
+    right: 2.4%;
+}
+#e{
+    display: inline-block;
+    color: #dc143c;
+    transform: rotate(-11deg);
+    right: 3.4%;
+}
+input{
+    display: inline-block;
+    width: 60%;
+    height: 600%;
+}
