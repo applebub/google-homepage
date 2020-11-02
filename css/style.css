@@ -1,9 +1,10 @@
 body{
-    margin: 0px 2%;
+    margin: 0% 0.5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    font-family: 'Noto Sans';
 }
 
 main{
@@ -14,10 +15,18 @@ main{
 }
 
 nav{
-    color: black;
-    padding: 2%;
+    padding: 1.5% 1%;
 }
 
+span.link{
+    margin: 0.3%;
+    font-size: 90%;
+    font-weight: 300;
+    color: hsl=(0deg,70,0);
+}
+.link:hover{
+    text-decoration: underline;
+}
 footer{
 
 }
@@ -28,7 +37,6 @@ h1{
     text-align: center;
     top: 3%;
     font-size: 600%;
-    font-family: 'Noto Sans';
 }
 
 .letter{
@@ -39,7 +47,7 @@ h1{
 
 #g1{
     color: #4169e1;
-    
+    position: static;
 }
 #o1{
     color: #dc143c;
@@ -77,20 +85,39 @@ input{
     padding: 2% 0% 2% 6.5%;
     border-radius: 5%;
 }
-button{
+
+#searchbuttons{
+    margin: auto;
+    width: 50%;
+}
+
+button.search{
     border: none;
-    font-size: 120%;
-    font-weight: lighter;
+    color: gray;
+    font-size: 100%;
+    font-weight: 50;
     padding: 2%;
 }
 
-button:hover{
-
+button.search:hover{
+    border: 1px solid darkgray;
+    color: black;
+}
+#searchbar{
+    position: relative;
 }
 
 #searchicon{
     position: absolute;
+    top: 1em;
+    left: 2%;
     z-index: 1;
     color: gray;
     transform: scale(1.2);
+}
+
+@media(orientation: portrait){
+    main{
+        width: 75%;
+    }
 }
