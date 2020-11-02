@@ -1,5 +1,5 @@
 body{
-    margin: 0px 20px;
+    margin: 0px 2%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,13 +11,11 @@ main{
     color: pink;
     height: 80%;
     width: 45%;
-    text-align: center;
 }
 
 nav{
-    color: blue;
+    color: black;
     padding: 2%;
-    border: solid red;
 }
 
 footer{
@@ -25,9 +23,11 @@ footer{
 }
 
 h1{
-    position: relative;
+    margin: 2% 0%;
+    width: 100%;
+    text-align: center;
     top: 3%;
-    font-size: 500%;
+    font-size: 600%;
     font-family: 'Noto Sans';
 }
 
@@ -63,8 +63,34 @@ h1{
     transform: rotate(-11deg);
     right: 3.4%;
 }
+
+form{
+    width: 70%;
+    margin-top: 2%;
+    margin: auto;
+}
+
 input{
-    display: inline-block;
-    width: 60%;
-    height: 600%;
+    width: 100%;
+    margin-bottom: 5%;
+    font-size: 100%;
+    padding: 2% 0% 2% 6.5%;
+    border-radius: 5%;
+}
+button{
+    border: none;
+    font-size: 120%;
+    font-weight: lighter;
+    padding: 2%;
+}
+
+button:hover{
+
+}
+
+#searchicon{
+    position: absolute;
+    z-index: 1;
+    color: gray;
+    transform: scale(1.2);
 }
