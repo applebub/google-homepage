@@ -174,4 +174,16 @@ footer{
     main{
         width: 75%;
     }
+    #leftnav{
+        width: 30%;
+    }
+    #rightnav{
+        width: 30%;
+    }
+    #leftfoot{
+        width: 50%;
+    }
+    #rightfoot{
+        width: 50%;
+    }
 }
